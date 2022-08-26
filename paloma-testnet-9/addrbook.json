@@ -13,11 +13,12 @@
 				"port": 26656
 			},
 			"buckets": [
-				208
+				208,
+				95
 			],
-			"attempts": 0,
+			"attempts": 16,
 			"bucket_type": 1,
-			"last_attempt": "2022-08-25T16:50:38.320669308Z",
+			"last_attempt": "2022-08-26T12:06:31.298830355Z",
 			"last_success": "0001-01-01T00:00:00Z",
 			"last_ban_time": "0001-01-01T00:00:00Z"
 		}
