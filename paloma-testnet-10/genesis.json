@@ -37,6 +37,34 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma167rf0jmkkkqp9d4awa8rxw908muavqgghtw6tn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1mre80u0mmsdpf3l2shre9g4sh7kp9lxu5gtlql",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1auhjn3rd6edsv90h72xuqnh7xwhlcayjselctn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma132nvgqw2l2jfgwzvtxyt8fswhfwtw9dz76zxcy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -47,11 +75,47 @@
       },
       "balances": [
         {
+          "address": "paloma132nvgqw2l2jfgwzvtxyt8fswhfwtw9dz76zxcy",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
           "address": "paloma1k4hfe8cqdzy6j0t7sppujhrplhp8k5tglf8v46",
           "coins": [
             {
               "denom": "ugrain",
               "amount": "1000000000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma167rf0jmkkkqp9d4awa8rxw908muavqgghtw6tn",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "3000000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1mre80u0mmsdpf3l2shre9g4sh7kp9lxu5gtlql",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "1000000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1auhjn3rd6edsv90h72xuqnh7xwhlcayjselctn",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "1000000000000"
             }
           ]
         }
