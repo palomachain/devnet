@@ -43,7 +43,7 @@
           "address": "paloma1k4hfe8cqdzy6j0t7sppujhrplhp8k5tglf8v46",
           "coins": [
             {
-              "amount": "2000000000000000",
+              "amount": "2500000000000000",
               "denom": "ugrain"
             }
           ]
@@ -52,7 +52,7 @@
           "address": "paloma167rf0jmkkkqp9d4awa8rxw908muavqgghtw6tn",
           "coins": [
             {
-              "amount": "250000000000000",
+              "amount": "2500000000000000",
               "denom": "ugrain"
             }
           ]
