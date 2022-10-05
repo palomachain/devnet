@@ -1,6 +1,6 @@
 {
   "genesis_time": "2022-08-28T19:58:56.180953667Z",
-  "chain_id": "flock",
+  "chain_id": "paloma-testnet-11",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -38,8 +38,32 @@
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": ,
-      "supply": [],
+      "balances": [
+        {
+          "address": "paloma1k4hfe8cqdzy6j0t7sppujhrplhp8k5tglf8v46",
+          "coins": [
+            {
+              "amount": "2000000000000000",
+              "denom": "ugrain"
+            }
+          ]
+        },
+        {
+          "address": "paloma167rf0jmkkkqp9d4awa8rxw908muavqgghtw6tn",
+          "coins": [
+            {
+              "amount": "250000000000000",
+              "denom": "ugrain"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "amount": "5000000000000000",
+          "denom": "ugrain"
+        }
+      ],
       "denom_metadata": [
         {
           "description": "The native staking token of the Paloma network.",
@@ -93,7 +117,12 @@
         "withdraw_addr_enabled": true
       },
       "fee_pool": {
-        "community_pool": []
+        "community_pool": [
+          {
+            "amount": "2000000000000000",
+            "denom": "ugrain"
+          }
+        ]
       },
       "delegator_withdraw_infos": [],
       "previous_proposer": "",
@@ -109,6 +138,13 @@
     },
     "evm": {
       "chains": [
+        {
+          "blockHashAtHeight": "0x395aa73297c37f70cb244f655ccebbeef0526bf1e6a72349e28dc6da93da9473",
+          "blockHeight": "21566167",
+          "chainID": "56",
+          "chainReferenceID": "bnb-main",
+          "minOnChainBalance": "5000000"
+        },
         {
           "blockHashAtHeight": "0x872b621cdfd03de6c8d19e82ddfb524f9946242178903f8d6f2c540e7425ffb6",
           "blockHeight": "15351127",
