@@ -119,7 +119,7 @@
       "fee_pool": {
         "community_pool": [
           {
-            "amount": "2000000000000000",
+            "amount": "",
             "denom": "ugrain"
           }
         ]
