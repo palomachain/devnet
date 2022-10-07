@@ -61,7 +61,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "paloma132nvgqw2l2jfgwzvtxyt8fswhfwtw9dz76zxcy",
+          "address": "paloma18d4cfq63h4a9cz49d86pr84hpang7yvqq9ucwf",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -91,7 +91,7 @@
           ]
         },
         {
-          "address": "paloma132nvgqw2l2jfgwzvtxyt8fswhfwtw9dz76zxcy",
+          "address": "paloma18d4cfq63h4a9cz49d86pr84hpang7yvqq9ucwf",
           "coins": [
             {
               "denom": "ugrain",
