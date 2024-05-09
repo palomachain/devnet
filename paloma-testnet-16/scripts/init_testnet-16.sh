@@ -45,7 +45,8 @@ FAUCET_AMOUNT="3${MGR}"
 name="birdlady"
 echo "$MNEMONIC" | palomad keys add "$name" --recover
 
-palomad genesis add-genesis-account "$ADDRESS" "$INIT_VALIDATION_AMOUNT"
+palomad genesis add-genesis-account "$ADDRESS" "$INIT_AMOUNT"
+palomad genesis gentx "$name" "$INIT_VALIDATION_AMOUNT" --chain-id "$CHAIN_ID"
 
 init() {
   name="$1"
@@ -56,9 +57,9 @@ init() {
 
 }
 
-init birdpoop2  paloma1maax9vgarw6xl43frw9xhmmdxkaqqykqzsgq96 "$INIT_VALIDATION_AMOUNT"
-init feather paloma1xq70960ds6892qf8wclfaakgx4p9yd68z6xf8l "$INIT_VALIDATION_AMOUNT"
-init farfly paloma12lhn0rarcgu85ank9qea2vys4cq8nv02t83nmm "$INIT_VALIDATION_AMOUNT"
+init birdpoop2  paloma1maax9vgarw6xl43frw9xhmmdxkaqqykqzsgq96 "$INIT_AMOUNT"
+init feather paloma1xq70960ds6892qf8wclfaakgx4p9yd68z6xf8l "$INIT_AMOUNT"
+init farfly paloma12lhn0rarcgu85ank9qea2vys4cq8nv02t83nmm "$INIT_AMOUNT"
 
 init faucet paloma167rf0jmkkkqp9d4awa8rxw908muavqgghtw6tn "$FAUCET_AMOUNT"
 init community-faucet paloma1qfexe8d6f9lpxtlpk7h9d6tjnkycmusctpl7t7 100000000000ugrain
@@ -107,3 +108,4 @@ init NoFloat paloma1n3lnqk3mf5seau5rcnf0jysraq2ah73h5vpqed 11050000000ugrain
 init byte_master paloma1kqufqd069ewrst92augwrywaagkwyrjs0jkkez 10853000000ugrain
 init superjax paloma18tz9pqy2aaadax29xnszyvp805cf0fdpxtmz4h 12142000000ugrain
 
+palomad genesis collect-gentxs
