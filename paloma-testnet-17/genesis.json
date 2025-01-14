@@ -1,0 +1,1354 @@
+{
+  "app_name": "palomad",
+  "app_version": "v2.4.2",
+  "genesis_time": "2025-01-14T18:49:47.314395857Z",
+  "chain_id": "paloma-testnet-17",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "07-tendermint": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma18d4cfq63h4a9cz49d86pr84hpang7yvqq9ucwf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1maax9vgarw6xl43frw9xhmmdxkaqqykqzsgq96",
+          "pub_key": null,
+          "account_number": "1",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1xq70960ds6892qf8wclfaakgx4p9yd68z6xf8l",
+          "pub_key": null,
+          "account_number": "2",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma12lhn0rarcgu85ank9qea2vys4cq8nv02t83nmm",
+          "pub_key": null,
+          "account_number": "3",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma167rf0jmkkkqp9d4awa8rxw908muavqgghtw6tn",
+          "pub_key": null,
+          "account_number": "4",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1qfexe8d6f9lpxtlpk7h9d6tjnkycmusctpl7t7",
+          "pub_key": null,
+          "account_number": "5",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1tdw23fpnxh2uk3djtteh7eaydymrfgnak3paq3",
+          "pub_key": null,
+          "account_number": "6",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma19svt6tkvnu9wcjfwz2daglnxtm0frcavpzeyk2",
+          "pub_key": null,
+          "account_number": "7",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1swa5kcf9cl5dx2ypx0c5r9e5qdfnzp9wq59z2l",
+          "pub_key": null,
+          "account_number": "8",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1qf7np0rp3qutvn08vc6qz0y7ffc02cncpam3a7",
+          "pub_key": null,
+          "account_number": "9",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1rvpfhy4fsttmyyk2zualcc3gxwq3c7ap7eas7e",
+          "pub_key": null,
+          "account_number": "10",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1vglwq68encr73tlvcqf94m82j0gt2lefwpz7xw",
+          "pub_key": null,
+          "account_number": "11",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1my3gpyx7sdx7wn4rd0hmng60q9jhykxhfp7jqy",
+          "pub_key": null,
+          "account_number": "12",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1nlwzcegm7kxg6rpmkqmpl3afvapkyp4ml0f5cm",
+          "pub_key": null,
+          "account_number": "13",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1ljg6ed0pzc3xpqtareyfp6h4fpngs7nw0nnu2j",
+          "pub_key": null,
+          "account_number": "14",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma15y6l32vlwm4n4p7xztrsf3a7u8xn2r6e3m735k",
+          "pub_key": null,
+          "account_number": "15",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1kludne80z0tcq9t7j9fqa630fechsjhxhpafac",
+          "pub_key": null,
+          "account_number": "16",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma10y227j9d09pckexy32v2gckerj9a0kcepc7zsh",
+          "pub_key": null,
+          "account_number": "17",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1j2zvqhxqycxlxj3stnmun8060wfhfw57up40dc",
+          "pub_key": null,
+          "account_number": "18",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1zhhwr8gk8pqf9p9eamxnqqstmtszjazwywr285",
+          "pub_key": null,
+          "account_number": "19",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma174l5um5rahquqxlvchyhfeveuue7j8faw7atq7",
+          "pub_key": null,
+          "account_number": "20",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1jr353upa2jcg2af20lkq5ch60npk4a3wmcut9q",
+          "pub_key": null,
+          "account_number": "21",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1z9fgzh7mzqgu33pdkxw0dqmqgm9l8exj4nggcp",
+          "pub_key": null,
+          "account_number": "22",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma16lez38lgsgu34ka2gq8yee8a862zpgs4rt52xs",
+          "pub_key": null,
+          "account_number": "23",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1d0py2ucz2jrz69ca5l3pd4dfrmv64r24wu00ja",
+          "pub_key": null,
+          "account_number": "24",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma15gvyk43x406v7kcd4rff5qfutqmcnpj3p4ea9g",
+          "pub_key": null,
+          "account_number": "25",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1am3k7czusdcewv55nhaugu2drn38af9449yxzj",
+          "pub_key": null,
+          "account_number": "26",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1sz3zjcyq8cd3e2k9kx6d44s8wnavfsy2gpf0y2",
+          "pub_key": null,
+          "account_number": "27",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1d3v3jh6l2r23y9kgzdrahx0ev8ez0g8qapsfxs",
+          "pub_key": null,
+          "account_number": "28",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma13uslh0y22ffnndyr3x30wqd8a6peqh255hkzrz",
+          "pub_key": null,
+          "account_number": "29",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1c8uxkkz00qn97wsp9um8y3a8wlmrv3c5629jrn",
+          "pub_key": null,
+          "account_number": "30",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1cs6trg6chgcw0t8dzjx9tup7emctxxtwehg6kq",
+          "pub_key": null,
+          "account_number": "31",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1p4r04ek0jnngegmw76rpx66xu9ep0kuzrge6jh",
+          "pub_key": null,
+          "account_number": "32",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1sysfu6jw5q7za5t5ddhkjm7uvanvy6nm5ac5j8",
+          "pub_key": null,
+          "account_number": "33",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1npwku4dmlnfwx9vqjnxzpfvdyxtcqvh3cqcl5x",
+          "pub_key": null,
+          "account_number": "34",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1aec790r8v55a5kntfmmver0zwvekptggt7n6j2",
+          "pub_key": null,
+          "account_number": "35",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1tsu8nthuspe4zlkejtj3v27rtq8qz7q62hx7ae",
+          "pub_key": null,
+          "account_number": "36",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1zz9fnrcpse9fjrq2sjg6rtxhv9z3uyeswyxejx",
+          "pub_key": null,
+          "account_number": "37",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma17kdfltcu45llx54ue0fvj8m4z9gd3ps4eg7v2n",
+          "pub_key": null,
+          "account_number": "38",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma10gsgzpryhkz34u6pdm97kjla8hkx2pwl49ncnu",
+          "pub_key": null,
+          "account_number": "39",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1hj4lxqp05ntjl6ezu3qn9eyedp5p4fpdwu8gxj",
+          "pub_key": null,
+          "account_number": "40",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1xmm7rf06d3d8l5zmj2jmcjrfftf5kctn9602gt",
+          "pub_key": null,
+          "account_number": "41",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1s2jzpdfedxqfmttl55f9yvhmpgj738t2qkuaql",
+          "pub_key": null,
+          "account_number": "42",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1xaelfvaltqr3g7lurvrxtuh4krhmtgw4jxw94z",
+          "pub_key": null,
+          "account_number": "43",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1n7ypqlhwtygn8aucp6m0wwxn0umeljnlrncpgg",
+          "pub_key": null,
+          "account_number": "44",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1n3lnqk3mf5seau5rcnf0jysraq2ah73h5vpqed",
+          "pub_key": null,
+          "account_number": "45",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma1kqufqd069ewrst92augwrywaagkwyrjs0jkkez",
+          "pub_key": null,
+          "account_number": "46",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "paloma18tz9pqy2aaadax29xnszyvp805cf0fdpxtmz4h",
+          "pub_key": null,
+          "account_number": "47",
+          "sequence": "0"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "paloma1qfexe8d6f9lpxtlpk7h9d6tjnkycmusctpl7t7",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "100000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1qf7np0rp3qutvn08vc6qz0y7ffc02cncpam3a7",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "356335000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1p4r04ek0jnngegmw76rpx66xu9ep0kuzrge6jh",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "9735000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1zz9fnrcpse9fjrq2sjg6rtxhv9z3uyeswyxejx",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10001000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1z9fgzh7mzqgu33pdkxw0dqmqgm9l8exj4nggcp",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "11622000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1zhhwr8gk8pqf9p9eamxnqqstmtszjazwywr285",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10949000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1rvpfhy4fsttmyyk2zualcc3gxwq3c7ap7eas7e",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "205009000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma19svt6tkvnu9wcjfwz2daglnxtm0frcavpzeyk2",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "165063000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1xq70960ds6892qf8wclfaakgx4p9yd68z6xf8l",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1xmm7rf06d3d8l5zmj2jmcjrfftf5kctn9602gt",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10733000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1xaelfvaltqr3g7lurvrxtuh4krhmtgw4jxw94z",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10024000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma18tz9pqy2aaadax29xnszyvp805cf0fdpxtmz4h",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "12142000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma18d4cfq63h4a9cz49d86pr84hpang7yvqq9ucwf",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma12lhn0rarcgu85ank9qea2vys4cq8nv02t83nmm",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1tdw23fpnxh2uk3djtteh7eaydymrfgnak3paq3",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "476304000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1tsu8nthuspe4zlkejtj3v27rtq8qz7q62hx7ae",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "63172000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1vglwq68encr73tlvcqf94m82j0gt2lefwpz7xw",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "30621000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1d0py2ucz2jrz69ca5l3pd4dfrmv64r24wu00ja",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "19568000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1d3v3jh6l2r23y9kgzdrahx0ev8ez0g8qapsfxs",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "11057000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma10y227j9d09pckexy32v2gckerj9a0kcepc7zsh",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "23172000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma10gsgzpryhkz34u6pdm97kjla8hkx2pwl49ncnu",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10015000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1sz3zjcyq8cd3e2k9kx6d44s8wnavfsy2gpf0y2",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10887000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1sysfu6jw5q7za5t5ddhkjm7uvanvy6nm5ac5j8",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10052000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1s2jzpdfedxqfmttl55f9yvhmpgj738t2qkuaql",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "11990000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1swa5kcf9cl5dx2ypx0c5r9e5qdfnzp9wq59z2l",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "214353000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma13uslh0y22ffnndyr3x30wqd8a6peqh255hkzrz",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10528000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1jr353upa2jcg2af20lkq5ch60npk4a3wmcut9q",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "11493000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1j2zvqhxqycxlxj3stnmun8060wfhfw57up40dc",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "11033000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1npwku4dmlnfwx9vqjnxzpfvdyxtcqvh3cqcl5x",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1n3lnqk3mf5seau5rcnf0jysraq2ah73h5vpqed",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "11050000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1n7ypqlhwtygn8aucp6m0wwxn0umeljnlrncpgg",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "11572000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1nlwzcegm7kxg6rpmkqmpl3afvapkyp4ml0f5cm",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "24284000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma15y6l32vlwm4n4p7xztrsf3a7u8xn2r6e3m735k",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "7951000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma15gvyk43x406v7kcd4rff5qfutqmcnpj3p4ea9g",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10764000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1kqufqd069ewrst92augwrywaagkwyrjs0jkkez",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10853000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1kludne80z0tcq9t7j9fqa630fechsjhxhpafac",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "16091000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1hj4lxqp05ntjl6ezu3qn9eyedp5p4fpdwu8gxj",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10140000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1c8uxkkz00qn97wsp9um8y3a8wlmrv3c5629jrn",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10857000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1cs6trg6chgcw0t8dzjx9tup7emctxxtwehg6kq",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "13529000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma167rf0jmkkkqp9d4awa8rxw908muavqgghtw6tn",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "3000000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma16lez38lgsgu34ka2gq8yee8a862zpgs4rt52xs",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10728000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1my3gpyx7sdx7wn4rd0hmng60q9jhykxhfp7jqy",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "22301000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1maax9vgarw6xl43frw9xhmmdxkaqqykqzsgq96",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "5000000000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1aec790r8v55a5kntfmmver0zwvekptggt7n6j2",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10009000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1am3k7czusdcewv55nhaugu2drn38af9449yxzj",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "9947000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma174l5um5rahquqxlvchyhfeveuue7j8faw7atq7",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "23302000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma17kdfltcu45llx54ue0fvj8m4z9gd3ps4eg7v2n",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "10515000000"
+            }
+          ]
+        },
+        {
+          "address": "paloma1ljg6ed0pzc3xpqtareyfp6h4fpngs7nw0nnu2j",
+          "coins": [
+            {
+              "denom": "ugrain",
+              "amount": "117151000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "ugrain",
+          "amount": "25156902000000"
+        }
+      ],
+      "denom_metadata": [],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "ugrain",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "evm": {
+      "params": {},
+      "smartContract": null,
+      "chains": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "genutil": {
+      "gen_txs": [
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "birdpoop2",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "palomavaloper1maax9vgarw6xl43frw9xhmmdxkaqqykqdqlunf",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "WGO2YzW+bs39ucuriP5taQpyGLy26vY7pNCPyzxAweA="
+                },
+                "value": {
+                  "denom": "ugrain",
+                  "amount": "10000000000"
+                }
+              }
+            ],
+            "memo": "78ea99cc5e1b233cf128db90df1e03b84053a2b8@173.255.218.88:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "AuHZZ3Ava43lJroo0VP5b3yHpszsqdmpPfPPVPN6QaKH"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "wxpVwLurpPtMlHP05i3+vixs2rtDXVHzDoVfZcSegioUmG7jH27MoFOxED5CxByD9vu+wLbF6iQDToz58BqkJw=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "farfly",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "palomavaloper12lhn0rarcgu85ank9qea2vys4cq8nv02yhx0dg",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "zQSQ9KIefyGH3PuWjf7FTD7Sr1Zjh19CmM95Oh9L040="
+                },
+                "value": {
+                  "denom": "ugrain",
+                  "amount": "10000000000"
+                }
+              }
+            ],
+            "memo": "5fc4a45415d4cad932ac9b95649aaa66e9de675a@172.234.229.157:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aim0nSXYe52S8lvY0I2tHs0/ibNjg+iOAx7jZ1t75qFS"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "V1fyXJjteI70iLFJKocxAOH4mfLIm0/5O+2Hw9bQmQZ+T2iaE37CXpcY6Xsx7CAtehGgD+iGe/Kt5A8VRYSy1A=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "feather",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "palomavaloper1xq70960ds6892qf8wclfaakgx4p9yd68d2343v",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Ja1QzHYKsDCP0+yJywmZ9TuxilYSWsFyv2/XChTJCio="
+                },
+                "value": {
+                  "denom": "ugrain",
+                  "amount": "10000000000"
+                }
+              }
+            ],
+            "memo": "30917299afeb7971c50ee726f840068a5f88874d@74.207.234.56:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Agw2pHEVwcWZA7FC9O6/Vndaw+O6cioRAFkYbiYSBWOn"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "7vkQJNQFMzvwqwIh+n5jFYnn6xGjVVb0LG8p+OGeJaAWx2ALApk4TFaaqCHg9Q7KIqDbs7UIYg0ff/7a1ybK2Q=="
+          ]
+        },
+        {
+          "body": {
+            "messages": [
+              {
+                "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                "description": {
+                  "moniker": "birdlady",
+                  "identity": "",
+                  "website": "",
+                  "security_contact": "",
+                  "details": ""
+                },
+                "commission": {
+                  "rate": "0.100000000000000000",
+                  "max_rate": "0.200000000000000000",
+                  "max_change_rate": "0.010000000000000000"
+                },
+                "min_self_delegation": "1",
+                "delegator_address": "",
+                "validator_address": "palomavaloper18d4cfq63h4a9cz49d86pr84hpang7yvq04tyc6",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "ZGKKYtuSUbZZx1mkr5Z1+C8CjmG/flRuX3vpzOquiwM="
+                },
+                "value": {
+                  "denom": "ugrain",
+                  "amount": "10000000000"
+                }
+              }
+            ],
+            "memo": "2b6ef6ab8af402a2f12767022fc80ed660340d29@45.33.68.11:26656",
+            "timeout_height": "0",
+            "extension_options": [],
+            "non_critical_extension_options": []
+          },
+          "auth_info": {
+            "signer_infos": [
+              {
+                "public_key": {
+                  "@type": "/cosmos.crypto.secp256k1.PubKey",
+                  "key": "Aoqsj2pqF9fubc/yH6seDfjrnysbE41EKVXHnMUI1Igi"
+                },
+                "mode_info": {
+                  "single": {
+                    "mode": "SIGN_MODE_DIRECT"
+                  }
+                },
+                "sequence": "0"
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas_limit": "200000",
+              "payer": "",
+              "granter": ""
+            },
+            "tip": null
+          },
+          "signatures": [
+            "iX8UGU0ZbepS4Ef7CDJ/2U4agMn0iiScx5uLV5PK/4s9gJ9khNiC6I+1/vgMgB74EimcDphyzc4U0fyfnlphTA=="
+          ]
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "ugrain",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "172800s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "86400s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "ugrain",
+            "amount": "50000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0",
+        "params": {
+          "upgrade_timeout": {
+            "height": {
+              "revision_number": "0",
+              "revision_height": "0"
+            },
+            "timestamp": "600000000000"
+          }
+        }
+      }
+    },
+    "interchainaccounts": {
+      "controller_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "ports": [],
+        "params": {
+          "controller_enabled": true
+        }
+      },
+      "host_genesis_state": {
+        "active_channels": [],
+        "interchain_accounts": [],
+        "port": "icahost",
+        "params": {
+          "host_enabled": true,
+          "allow_messages": [
+            "*"
+          ]
+        }
+      }
+    },
+    "metrix": {
+      "params": {}
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ugrain",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "paloma": {
+      "params": {},
+      "light_node_client_licenses": [],
+      "light_node_client_feegranter": null,
+      "light_node_client_funders": null,
+      "light_node_clients": []
+    },
+    "palomaconsensus": {
+      "params": {},
+      "port_id": "consensus"
+    },
+    "params": null,
+    "scheduler": {
+      "params": {},
+      "port_id": "scheduler"
+    },
+    "skyway": {
+      "params": {},
+      "skyway_nonces": [],
+      "batches": [],
+      "batch_confirms": [],
+      "batch_gas_estimates": [],
+      "attestations": [],
+      "erc20_to_denoms": [],
+      "unbatched_transfers": [],
+      "bridge_transfer_limits": [],
+      "bridge_taxes": [],
+      "light_node_sale_contracts": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 175,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "ugrain",
+        "min_commission_rate": "0.000000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "tokenfactory": {
+      "params": {
+        "denom_creation_fee": [
+          {
+            "denom": "ugrain",
+            "amount": "10000000"
+          }
+        ]
+      },
+      "factory_denoms": []
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "treasury": {
+      "params": {},
+      "treasuryFees": {
+        "communityFundFee": "",
+        "securityFee": ""
+      },
+      "relayer_fee_settings": []
+    },
+    "upgrade": {},
+    "valset": {
+      "params": {},
+      "pigeonRequirements": null,
+      "scheduledPigeonRequirements": null
+    },
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "Everybody",
+          "addresses": []
+        },
+        "instantiate_default_permission": "Everybody"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    }
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "0"
+      }
+    }
+  }
+}
